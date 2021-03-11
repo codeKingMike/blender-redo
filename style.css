@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* SHOWCASE SECTION */
 #main-img {
   background: url("/img/blender-showcase.jpeg");
   min-height: 450px;
@@ -21,4 +21,31 @@ h3.blender-title {
   top: 30%;
   left: 280px;
   padding: 15px;
+}
+/* DOWNLOAD LINK */
+#download-link {
+  min-height: 85px;
+  box-shadow: 0 4px 6px -6px #222;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  text-align: center;
+}
+
+#download-link .container {
+  margin: 0 auto;
+}
+
+#download-link .col-md-7 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+#download-link .btn {
+  padding: 10px 50px;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+#download-link i {
+  margin-right: 13px;
 }
