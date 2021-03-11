@@ -49,3 +49,12 @@ h3.blender-title {
 #download-link i {
   margin-right: 13px;
 }
+/* ABOUT SECTION */
+#about {
+  padding: 10em 0 0 0;
+  background: #f8f8f8;
+}
+
+#about-area {
+  min-height: 450px;
+}
