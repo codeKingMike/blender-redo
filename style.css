@@ -164,6 +164,42 @@ h3.blender-title {
 #everything-you-need li {
   margin-left: 20px;
 }
+
+/* JOIN DEV */
+#join-dev {
+  background: url("./img/join-blender.jpeg");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 19rem;
+}
+
+#join-dev h3 {
+  font-size: 3.7em;
+  font-weight: 400;
+}
+
+#join-dev .twenty {
+  width: 5%;
+  margin-left: 187px;
+  border: 1px solid orange;
+}
+
+#join-dev p {
+  font-size: 2.1em;
+  font-weight: 200;
+}
+
+.monthly {
+  padding: 5px 50px;
+}
+
+.once {
+  padding: 5px 50px;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 1100px) {
   #blender-news .card-group {
