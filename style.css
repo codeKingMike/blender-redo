@@ -92,6 +92,78 @@ h3.blender-title {
   margin: 10em 0;
 }
 
+/* EVERYTHING YOU NEED */
+#everything-you-need {
+  background-image: url("https://www.blender.org/wp-content/themes/bthree/assets/images/backgrounds/background-manuel_grad-scificity.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#everything-you-need h2 {
+  font-size: 2.2em;
+  font-weight: 300;
+  margin: 15px auto 0 auto;
+  display: inline-block;
+}
+
+.everything-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.everything-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  width: 7%;
+  margin: auto;
+  border: 1px solid rgba(235, 94, 40, 0.8);
+}
+
+#everything-you-need a {
+  display: inline-block;
+}
+
+.rows {
+  margin-top: 100px;
+}
+
+.rows img {
+  transition: transform 0.3s;
+}
+
+.rows img:hover {
+  -webkit-transform: scale(1.03); /* or some other value */
+  transform: scale(1.03);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+.move-down {
+  margin-bottom: 150px;
+}
+
+#everything-you-need h3 {
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+#everything-you-need p,
+#everything-you-need li {
+  font-size: 1.2em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#everything-you-need li {
+  margin-left: 20px;
+}
 /* MEDIA QUERY */
 @media (max-width: 1100px) {
   #blender-news .card-group {
