@@ -309,6 +309,20 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
+
+  .download-blender {
+    display: flex;
+  }
+
+  .download-blender button {
+    margin: 20px 0;
+  }
+
+  .container-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
 }
 
 @media (max-width: 768px) {
