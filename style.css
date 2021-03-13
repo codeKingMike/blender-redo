@@ -312,8 +312,50 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  h3.blender-title {
+    font-size: 2.2em;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+  }
+
+  .blender-news1 {
+    padding-top: 3em;
+  }
+
+  #blender-news h2.news-heading {
+    padding: 0;
+  }
+
+  #blender-news .twenty {
+    margin-left: 5px;
+  }
+
   #blender-news .card-group {
     grid-template-columns: repeat(1, 1fr);
     padding: 0 10px;
+  }
+
+  .download-blender {
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  .download-blender button {
+    margin: 20px 0;
+  }
+
+  .container-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
+  .container-row li:last-child {
+    padding-bottom: 30px;
+  }
+
+  .container-row li {
+    padding-bottom: 7px;
   }
 }
